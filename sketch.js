@@ -65,7 +65,9 @@ restart.visible = false;
 }
 
 function draw() {
+  
   background(180);
+  text("my game",250,20);
   if (gameState === PLAY) {
   
     if(keyDown("space") && trex.y > 157) {
